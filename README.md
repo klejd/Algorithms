@@ -1,4 +1,3 @@
-# Algorithms
 🎥 Balanced Trees
 AVL Tree (recursive)
 Red Black Tree (recursive)
