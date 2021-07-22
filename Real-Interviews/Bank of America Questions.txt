@@ -1,0 +1,35 @@
+
+1. Multithreading
+2. Garbage Collection
+3. Exception handling
+4. Static key word
+5. Final key word
+6. Abstract class and interface difference.
+7. Scops
+8. Ioc
+9. @Transactional
+10. Rest api configuration
+11. @Rest Controller
+12. @Controller
+13.Hibernate
+14.Use produces for json only.
+15. Properties hibernate,
+16. Dialect
+17. Difference b/n filter and intercepter
+18. Difference b/n list (asnyc) and set(sysnc)
+19. Difference b/n hashMap and HashTable
+20. How to change from mysql to oracle database.
+================================================
+
+1. hibernate versioning,
+2. spring mvc, 
+3. spring boot,
+4. rest,
+5. hibernate cache, how to enable hibernate second level cache,
+6. manytomany use case ,
+7. how to increase performance of fetch on database,
+8. multi-thread, 
+9. how to display "Hello world" on JSP page using spring,
+10. transaction management, propagation in tansaction,
+11. AOP
+12. JMS/AMQP--RabbitMQ

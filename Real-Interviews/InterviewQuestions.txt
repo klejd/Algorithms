@@ -1,0 +1,52 @@
+Spring MVC configuration and how to display "Hello Nicoleon JSP
+configuration means (xml config or java)
+What is TDD?
+what was your daily routine when you were developer?
+Transaction and propagation
+AOP
+Hibernate
+lazy and eager loading
+design paterns
+multi-threading use case (real life scenario)
+Kafka (what is replication, offset, partition, offset)
+how to write a code in hibernate to get all table data without getting the real data from database
+how to enable second level cache?
+To increase performance, do we need to create index on all columns in a table?
+how to configure tomcat in spring boot
+@requestBody
+@BindingResult
+how to tell to get XML and JSON in restapi
+how to create springboot application
+if a is singleton and b is prototype and a.b
+b in a.b is it singlton or prototype ?
+d/c b/t shutdown hook and finalize()
+hibernate versioning
+spring mvc
+SOAP vs REST
+GarbageCollection
+Final keyword,static keyword
+difference between Abstract and interface
+@Transactional
+difference between filter and interceptor
+HashMap & Hashtable
+How to change yr app from mysql to Oracle
+Who is responsible to create proxy for AOP?
+restApi versioning
+thread class and runnable interface
+why functional interface?
+class lock vs object lock
+constructor chaining
+comparable vs comparator
+some annotation from hibernate
+how to configure spring using both XML and java config
+What dependencies do we put for Rest Api if it is JSON?
+what is predicate interface
+leak memory and example
+class lock and object lock on multithreading
+how to secure my rest endpoint
+how can you create a singleton in java
+HashMap how it works internally
+covariant return types
+lambda expressions
+DI
+why equals and hashcode

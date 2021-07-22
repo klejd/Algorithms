@@ -1,0 +1,127 @@
+List<Student> list = new ArrayList<>();
+
+class Student{
+  String name;
+  int id;
+  getter;s
+    setters;
+  
+}
+sort this list based on id?
+  
+Collections.sort(list, (s1, s2)-> Integer.compare(s1.id, s2.id));
+
+Collections.sort(list , (a, b) -> a.getID() - b.getID());
+
+Given a list of purchases return  10  users who spent most amount that day
+
+Purchase class has email , amount , productid
+
+
+class Purchase{
+String email;
+int amount;
+int productId;
+Date date;
+getters;
+setters;
+
+}
+
+List<Purchase> list = new ArrayList<>();
+list.stream().sorted((a, b) -> a.getAmount() - b.getAmount()).map(Purchase::getEmail).limit(10).collect(Collectors.toList());
+Map<String, Integer> purchasesByUsers = list
+	.stream()
+  .collect(Collectors.groupBy(Purchase::getEmail, Collectors.summingInt()));
+
+// sort and limit to top 10
+purchasesByUsers.entrySet()
+  .stream()
+  .sorted((e1, e2)->e1.getValue()-e2.getValue())
+  .collect(Collectors.toMap())
+  
+  =============================================================================================================
+  
+  Heap segments and the life cycle of an object inside the heap.
+  JVM Structure in Java very important
+  Memory Allocation of primitive data types and objects in java very important
+  how garbage collection works in Java - very important 
+  Java 8 , G1 Collector 
+  What is String pool in java
+  ConcurrentMap vs synchronized hashMap what is the difference 
+  Internal working of Hashmap , hashSet , Treemap 
+  thread pools in java 8
+  parallel streams in Java 8  - very important
+  Functional interface in java 8
+  default method, predicate interface in java 8 
+  memory allocation of objects and methods inside heap and stack and static method memory allocation
+  
+  =======================================================================================================================================
+  
+  LRU Cache 
+  website question 
+  reverse linked list 
+  check cycle in linked list
+  coin change problem in dynamic programming
+  fibonacci serires solution using memoization
+  
+  ===============================================================================================
+  resume Walkthrough
+	Java 8 
+  Algorithms Coding
+  Spring framework
+  REST API
+  SSL Handshake?
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
